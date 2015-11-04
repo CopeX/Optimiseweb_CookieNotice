@@ -1,8 +1,8 @@
 {
-  "license": "proprietary",
+  "license": "OSL-3.0",
   "name": "optimiseweb/cookienotice",
   "description": "Show cookie notice",
-  "type": "magento-library",
+  "type": "magento-module",
   "require": {
     "magento-hackathon/magento-composer-installer": "3.*"
   }
