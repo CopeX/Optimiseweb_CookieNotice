@@ -1,2 +1,10 @@
 app/code/community/Optimiseweb  app/code/community/Optimiseweb
-app/design/frontend/base
+
+app/design/frontend/base/default/layout/* app/design/frontend/base/default/layout/
+app/design/frontend/base/default/template/optimiseweb app/design/frontend/base/default/template/optimiseweb
+
+skin/frontend/base/default/css/*  skin/frontend/base/default/css/
+
+app/etc/modules/* app/etc/modules/
+
+app/locale/en_US/*  app/locale/en_US/
