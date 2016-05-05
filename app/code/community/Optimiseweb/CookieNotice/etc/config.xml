@@ -36,9 +36,28 @@
         </translate>
 
     </frontend>
-    
+
     <adminhtml>
-        
+        <acl>
+            <resources>
+                <admin>
+                    <children>
+                        <system>
+                            <children>
+                                <config>
+                                    <children>
+                                        <optimisewebcookienotice translate="title" module="cookienotice">
+                                            <title>Cookie Notice</title>
+                                            <sort_order>70</sort_order>
+                                        </optimisewebcookienotice>
+                                    </children>
+                                </config>
+                            </children>
+                        </system>
+                    </children>
+                </admin>
+            </resources>
+        </acl>
         <translate>
             <modules>
                 <Optimiseweb_CookieNotice>
@@ -48,7 +67,7 @@
                 </Optimiseweb_CookieNotice>
             </modules>
         </translate>
-        
+
     </adminhtml>
 
     <global>
