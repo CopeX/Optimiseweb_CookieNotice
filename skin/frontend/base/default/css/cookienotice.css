@@ -26,3 +26,10 @@
 .cookienotice-box-bottom-right {right: 30px;bottom: 30px;}
 .cookienotice-box-bottom-left {left: 30px;bottom: 30px;}
 .cookienotice-box .cookienotice-content {}
+
+/* Responsive */
+@media (max-width: 960px) {
+    .cookienotice-bar .cookienotice-content {
+        max-width: 100%;
+    }
+}
