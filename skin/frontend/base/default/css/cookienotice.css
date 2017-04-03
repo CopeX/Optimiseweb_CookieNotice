@@ -95,19 +95,18 @@
     bottom: 30px;
 }
 
-.cookienotice-box .cookienotice-content {
-}
-
-/* Responsive */
-@media (max-width: 600px) {
-    .cookienotice-bar .cookienotice-content {
-        width: 90%;
-        margin: 6px;
-    }
-}
 
 .cookienotice-bar .cookienotice-content {
     width: 100%;
     max-width: 960px;
 
 }
+
+/* Responsive */
+@media screen and (max-width: 600px) {
+    .cookienotice-bar .cookienotice-content {
+        width: 90%;
+        margin: 6px;
+    }
+}
+
